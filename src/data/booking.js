@@ -1,0 +1,28 @@
+export const booking = {
+  eyebrow: 'RESERVAS',
+  title: 'Tu próxima sonrisa comienza aquí.',
+  description: 'Agenda tu atención en Clínica Dental Odontodiza. Completa tus datos y continúa tu solicitud directamente por WhatsApp.',
+  whatsappLabel: 'RESERVAS POR WHATSAPP',
+  scheduleLabel: 'HORARIO DE ATENCIÓN',
+  privacyNote: 'No almacenamos tus datos: la información que escribas se envía directamente a la clínica por WhatsApp.',
+  form: {
+    title: 'Solicitud de cita',
+    badge: 'PASO ÚNICO',
+    name: { label: 'Nombre completo', placeholder: 'Ej. Ana Torres' },
+    phone: { label: 'Número de contacto', placeholder: 'Ej. 999 922 410' },
+    treatment: { label: 'Tratamiento de interés', placeholder: 'Selecciona un tratamiento' },
+    date: { label: 'Fecha preferida' },
+    time: { label: 'Horario preferido', options: ['Mañana', 'Tarde', 'Noche'] },
+    message: { label: 'Mensaje adicional', optional: '(opcional)', placeholder: 'Cuéntanos brevemente qué necesitas' },
+    submit: 'Continuar por WhatsApp',
+    legal: 'Al continuar se abrirá WhatsApp con tu solicitud. La cita queda sujeta a confirmación de disponibilidad por parte de la clínica.',
+    errors: {
+      name: 'Escribe tu nombre completo.',
+      phone: 'Ingresa un número de contacto válido (9 dígitos).',
+      treatment: 'Selecciona un tratamiento.',
+      date: 'Elige una fecha (de lunes a sábado).',
+      sunday: 'Los domingos la clínica está cerrada. Elige otro día.',
+      time: 'Elige un horario preferido.',
+    },
+  },
+}
